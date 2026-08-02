@@ -5,6 +5,7 @@ public:
             for(int j=0;j<i;j++){
                 if(heights[i]>heights[j]){
                     swap(names[i],names[j]);
+                    swap(heights[i],heights[j]);
                 }
             }
         }
